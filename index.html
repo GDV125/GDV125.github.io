@@ -1,197 +1,205 @@
 <!DOCTYPE HTML>
-<!--
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Гостевой Дворик</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		
-	</head>
-	
-	<body class="is-preload">
+<html lang="ru">
+<head>
+    <title>Гостевой дворик — отдых у моря в Волчанце</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
 
-		<!-- Sidebar -->
-			<section id="sidebar">
-				<div class="inner">
-					<nav>
-						<ul>
-							<li><a href="#intro">Главная</a></li>
-							<li><a href="#one">О нас</a></li>
-							<li><a href="#two">Правила размещения</a></li>
-							<li><a href="#three">Контакты</a></li>
-						</ul>
-					</nav>
-				</div>
-			</section>
+    <nav id="nav">
+        <a href="#hero" class="logo">
+            <img src="assets/images/logo.png" alt="Гостевой дворик" class="logo-img">
+        </a>
+        <button class="menu-toggle" onclick="toggleMenu()" aria-label="Меню">
+            <span></span><span></span><span></span>
+        </button>
+        <ul>
+            <li><a href="#about" class="active">О нас</a></li>
+            <li><a href="#rules">Правила</a></li>
+            <li><a href="generic.html">Номера</a></li>
+            <li><a href="#documents">Договоры</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+        </ul>
+    </nav>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+    <section id="hero">
+        <div class="sun"></div>
+        <div class="waves"></div>
+        <div class="inner">
+            <div class="hero-logo fade-up"><img src="assets/images/logo.png" alt="Гостевой дворик" class="hero-logo-img"></div>
+            <h1><span class="highlight">Гостевой</span> дворик</h1>
+            <p>Уютный отдых у моря в посёлке Волчанец.<br>Комфортабельные номера, тёплое море и незабываемые закаты.</p>
+            <div class="actions">
+                <a href="#about" class="button">Узнать больше</a>
+                <a href="#contacts" class="button outline-light">Связаться с нами</a>
+            </div>
+        </div>
+    </section>
 
-				<!-- Intro -->
-				<section id="intro" class="wrapper style1 fullscreen fade-up" 
-					style="background: url('images/fon.jpg') center/cover no-repeat fixed;">
-					<div class="inner" style="background: rgba(0,0,0,0.5); padding: 2rem; border-radius: 10px;">
-						<h1 style="color: white;">Гостевой дворик</h1>
-						<p style="color: white;">Приглашаем для уютного отдыха в современные комфортабельные номера</p>
-						<!-- <ul class="actions">
-							<li><a href="#one" class="button scrolly">О нас</a></li>
-						</ul> -->
-					</div>
-				</section>
-				
-				<!-- One -->
-					<section id="one" class="wrapper style2 spotlights">
-						<section>
-							<a href="#" class="image"><img src="images/1.jpg" alt="" data-position="center center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Номера</h2>
-									<p>Все номера 4-х местные. В каждом номере две двуспальные кровати.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Подробнее</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/p1.jpg" alt="" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Море и пляж</h2>
-									
-									<p> Чистый берег и песчаное дно залива "Восток" всего в 60 метрах от нас.</p>
-									<ul class="actions">
-										<li><a href="generic.html#beach-anchor" class="button">Подробнее</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/3.jpg" alt="" data-position="25% 25%" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Развлечения</h2>
-									<p>Подогревамый бассейн, баня на дровах, детская площадка, SUP-доски</p>
-									<ul class="actions">
-										<li><a href="generic.html#entertainment-anchor" class="button">Подробнее</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-					</section>
+    <div id="wrapper">
 
-				<!-- Two -->
-					<section id="two" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>Правила размещения</h2>
-							<p>Соблюдая их, вы помогаете поддерживать уютную атмосферу для всех гостей, а также бережете имущество и инфраструктуру комплекса. Это гарантирует, что ваш отдых и отдых окружающих пройдет спокойно и приятно.</p>
-							<div class="features">
-								<section>
-									<span class="icon solid major fa-cat"></span>
-									<h3>Домашние животные</h3>
-									<p>Проживание с домашними животными только по согласованию с администрацией за дополнительную плату</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-users"></span>
-									<h3>Если вас больше 4 человек</h3>
-									<p>Размещение более 4-х человек в номере, только по согласованию с администрацией и за доп. оплату</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-volume-up"></span>
-									<h3>Про шум</h3>
-									<p>На территории соблюдаем режим тишины с 22:00 </p>
-								</section>
-								<section>
-									<span class="icon solid major fa-smoking-ban"></span>
-									<h3>Курение</h3>
-									<p>Курение в номерах запрещено. Курение разрешено только в специально отведенной для этого зоне.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-money-bill-wave"></span>
-									<h3>Про депозит</h3>
-									<p>При заселении взимается депозит, сумму уточняйте у администрации</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-clock"></span>
-									<h3>Время заселения/выселения</h3>
-									<p>Заезд в номер ориентировочно после 14:00, в порядке готовности номера. При выселении освободить номер, необходимо, до 12:00</p>
-								</section>
-							</div>
-							
-						</div>
-					</section>
+        <section id="about" class="wrapper">
+            <div class="inner">
+                <h2 class="section-title">О нас</h2>
+                <p class="section-subtitle">Всё, что нужно для идеального отпуска у моря</p>
+                <div class="spotlights">
+                    <section class="fade-up">
+                        <div class="image"><img src="images/1.jpg" alt="Номера" /></div>
+                        <div class="content">
+                            <h2>Номера</h2>
+                            <p>Все номера 4-х местные. В каждом номере две двуспальные кровати, кондиционер, телевизор, холодильник и собственная ванная комната.</p>
+                            <a href="generic.html" class="button">Подробнее о номерах</a>
+                        </div>
+                    </section>
+                    <section class="fade-up">
+                        <div class="image"><img src="images/p1.jpg" alt="Море и пляж" /></div>
+                        <div class="content">
+                            <h2>Море и пляж</h2>
+                            <p>Чистый берег и песчаное дно залива «Восток» всего в 60 метрах от нас. Пологое дно — идеально для семей с детьми.</p>
+                            <a href="generic.html#beach-anchor" class="button">Фото пляжа</a>
+                        </div>
+                    </section>
+                    <section class="fade-up">
+                        <div class="image"><img src="images/3.jpg" alt="Развлечения" /></div>
+                        <div class="content">
+                            <h2>Развлечения</h2>
+                            <p>Подогреваемый бассейн, баня на дровах, детская площадка, SUP-доски. Отдых для всей семьи!</p>
+                            <a href="generic.html#entertainment-anchor" class="button">Все развлечения</a>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
 
-				<!-- Three -->
-				    <div id="contacts-anchor"></div>
-					<section id="three" class="wrapper style1 fade-up">
-						<div class="inner">
-							<h2>Контакты</h2>
-							<p></p>
-							<div class="split style1">
-								
-								<section>
-									<div class="yandex-map" style="position: relative; overflow: hidden; width: 100%; max-width: 600px; margin: 20px auto;">
-									<iframe 
-										src="https://yandex.ru/map-widget/v1/?um=constructor%3A2781322cbfacf51d2e24d1bc7c480b517cdf1f89c9c42535243e56034d19f2eb&amp;source=constructor"
-										width="350" 
-										height="300" 
-										frameborder="0"
-										style="display: block; margin: 0 auto; border: 1px solid #e0e0e0; border-radius: 8px;"
-										allowfullscreen="true">
-									</iframe>
-									</div>
-								</section>
-								<section>
-									<ul class="contact">
-										<li>
-											<h3>Адрес</h3>
-											<span> Волчанец,<br />
-											Приморский край, 692968<br />
-											Россия</span>
-										</li>
-										<li>
-											<h3>Телефон</h3>
-											<span> 8 (984)-148-93-30 </span>
-										</li>
-										<li>
-											<h3>Писать сюда</h3>
-											<ul class="icons">
-												<li><a href="https://wa.me/79841489330" class="icon brands fa-whatsapp"><span class="label">WhatsApp</span></a></li>
-												
-								
-											</ul>
-										</li>
-									</ul>
-								</section>
-							</div>
-						</div>
-					</section>
+        <section id="rules" class="wrapper">
+            <div class="inner">
+                <h2 class="section-title">Правила размещения</h2>
+                <p class="section-subtitle">Соблюдая их, вы помогаете поддерживать уютную атмосферу для всех гостей</p>
+                <div class="features">
+                    <section class="fade-up">
+                        <span class="icon solid major fa-cat"></span>
+                        <h3>Домашние животные</h3>
+                        <p>Проживание с домашними животными только по согласованию с администрацией за дополнительную плату</p>
+                    </section>
+                    <section class="fade-up">
+                        <span class="icon solid major fa-users"></span>
+                        <h3>Если вас больше 4 человек</h3>
+                        <p>Размещение более 4-х человек в номере только по согласованию с администрацией и за доп. оплату</p>
+                    </section>
+                    <section class="fade-up">
+                        <span class="icon solid major fa-volume-up"></span>
+                        <h3>Тишина</h3>
+                        <p>На территории соблюдаем режим тишины с 22:00</p>
+                    </section>
+                    <section class="fade-up">
+                        <span class="icon solid major fa-smoking-ban"></span>
+                        <h3>Курение</h3>
+                        <p>Курение в номерах запрещено. Разрешено только в специально отведённой зоне.</p>
+                    </section>
+                    <section class="fade-up">
+                        <span class="icon solid major fa-money-bill-wave"></span>
+                        <h3>Депозит</h3>
+                        <p>При заселении взимается депозит. Сумму уточняйте у администрации.</p>
+                    </section>
+                    <section class="fade-up">
+                        <span class="icon solid major fa-clock"></span>
+                        <h3>Время заезда/выезда</h3>
+                        <p>Заезд после 14:00. При выселении освободить номер до 12:00.</p>
+                    </section>
+                </div>
+            </div>
+        </section>
 
-			</div>
+        <section id="documents" class="wrapper">
+            <div class="inner">
+                <h2 class="section-title">Договоры</h2>
+                <p class="section-subtitle">Ознакомьтесь с документами перед бронированием</p>
+                <div class="documents-grid">
+                    <a href="docs/dogovor.pdf" class="doc-card fade-up" target="_blank">
+                        <span class="doc-icon far fa-file-pdf"></span>
+                        <div class="doc-info">
+                            <h4>Договор на оказание услуг</h4>
+                            <span>PDF, 148 КБ</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
 
-		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">  
-					<ul class="menu">
-						<li>&copy; Гостевой дворик. Все права защищены.</li><li>Дизайн: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</div>
-			</footer>
+        <section id="contacts" class="wrapper">
+            <div class="inner">
+                <h2 class="section-title">Контакты</h2>
+                <p class="section-subtitle">Свяжитесь с нами любым удобным способом</p>
+                <div class="contacts-grid">
+                    <div class="map-container fade-up">
+                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A2781322cbfacf51d2e24d1bc7c480b517cdf1f89c9c42535243e56034d19f2eb&amp;source=constructor" width="100%" height="350" frameborder="0" allowfullscreen="true"></iframe>
+                    </div>
+                    <div class="contact-info fade-up">
+                        <div class="contact-item">
+                            <span class="icon fa-map-marker-alt"></span>
+                            <div>
+                                <h3>Адрес</h3>
+                                <p>Волчанец, Приморский край, 692968, Россия</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="icon fa-phone-alt"></span>
+                            <div>
+                                <h3>Телефон</h3>
+                                <p><a href="tel:+79841489330">8 (984) 148-93-30</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="icon brands fa-whatsapp"></span>
+                            <div>
+                                <h3>Написать в WhatsApp</h3>
+                                <p><a href="https://wa.me/79841489330" target="_blank">+7 (984) 148-93-30</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+    </div>
 
-	</body>
+    <footer id="footer">
+        <div class="inner">            <ul class="menu">
+                <li><img src="assets/images/logo.png" alt="" class="footer-logo"></li>
+                <li>&copy; Гостевой дворик. Все права защищены.</li>
+            </ul>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector('#nav ul').classList.toggle('open');
+        }
+        document.querySelectorAll('#nav ul li a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.querySelector('#nav ul').classList.remove('open');
+            });
+        });
+        window.addEventListener('scroll', () => {
+            const nav = document.getElementById('nav');
+            if (window.scrollY > 50) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+    </script>
+
+</body>
 </html>

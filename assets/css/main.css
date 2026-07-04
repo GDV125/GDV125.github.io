@@ -38,11 +38,11 @@ h1,h2,h3,h4 { color:var(--text-dark); font-weight:700; line-height:1.3; }
 h1 { font-size:3.5rem; }
 h2 { font-size:2.5rem; }
 h3 { font-size:1.5rem; }
-p { color:var(--text-medium); margin-bottom:1.2rem; }
+p { color:var(--text-dark); margin-bottom:1.2rem; }
 
 .section-title { text-align:center; margin-bottom:0.5rem; }
 .section-title:after { content:''; display:block; width:60px; height:4px; background:var(--gradient-sunset); border-radius:2px; margin:0.8rem auto 0; }
-.section-subtitle { text-align:center; color:var(--text-light); font-size:1.1rem; max-width:600px; margin:0 auto 3rem; }
+.section-subtitle { text-align:center; color:var(--text-medium); font-size:1.1rem; max-width:600px; margin:0 auto 3rem; }
 
 .button { display:inline-flex; align-items:center; gap:0.5rem; padding:0.9rem 2.2rem; border-radius:50px; font-weight:600; font-size:0.95rem; border:none; cursor:pointer; transition:var(--transition); text-decoration:none; background:var(--white); color:var(--ocean-dark); box-shadow:var(--shadow-sm); }
 .button:hover { transform:translateY(-2px); box-shadow:var(--shadow-md); }
@@ -55,10 +55,10 @@ p { color:var(--text-medium); margin-bottom:1.2rem; }
 #nav .logo .logo-img { height:48px; width:auto; display:block; }
 #nav .logo .logo-text { font-size:1.2rem; font-weight:800; background:var(--gradient-sea); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
 #nav ul { display:flex; align-items:center; gap:2rem; }
-#nav ul li a { font-weight:500; font-size:0.9rem; color:var(--text-medium); position:relative; padding:0.3rem 0; }
+#nav ul li a { font-weight:500; font-size:0.9rem; color:var(--text-dark); position:relative; padding:0.3rem 0; }
 #nav ul li a:after { content:''; position:absolute; bottom:0; left:0; width:0; height:2px; background:var(--gradient-sunset); transition:var(--transition); }
 #nav ul li a:hover:after, #nav ul li a.active:after { width:100%; }
-#nav ul li a:hover, #nav ul li a.active { color:var(--text-dark); }
+#nav ul li a:hover, #nav ul li a.active { color:var(--ocean-dark); }
 .menu-toggle { display:none; flex-direction:column; gap:5px; cursor:pointer; padding:5px; background:none; border:none; }
 .menu-toggle span { width:24px; height:2px; background:var(--text-dark); border-radius:2px; transition:var(--transition); }
 
@@ -71,7 +71,7 @@ p { color:var(--text-medium); margin-bottom:1.2rem; }
 #hero .hero-logo { margin-bottom:1rem; }
 #hero .hero-logo .hero-logo-img { max-width:220px; height:auto; margin:0 auto; filter:drop-shadow(0 4px 20px rgba(0,0,0,0.15)); }
 #hero h1 { font-size:4rem; font-weight:800; color:var(--white); margin-bottom:0.5rem; text-shadow:0 2px 20px rgba(0,0,0,0.15); }
-#hero h1 .highlight { background:linear-gradient(135deg, #FFD700, #FFA726); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
+
 #hero p { font-size:1.25rem; color:rgba(255,255,255,0.9); margin-bottom:2.5rem; }
 #hero .actions { display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; }
 #hero .actions .button { background:var(--white); color:var(--ocean-dark); font-weight:700; }
@@ -91,8 +91,8 @@ section.wrapper { padding:5rem 2rem; }
 #about .spotlights>section .image img { width:100%; height:100%; object-fit:cover; transition:transform 0.6s ease; }
 #about .spotlights>section:hover .image img { transform:scale(1.05); }
 #about .spotlights>section .content { padding:2.5rem; }
-#about .spotlights>section .content h2 { font-size:1.8rem; margin-bottom:1rem; color:var(--ocean-dark); }
-#about .spotlights>section .content p { color:var(--text-medium); margin-bottom:1.5rem; }
+#about .spotlights>section .content h2 { font-size:1.8rem; margin-bottom:1rem; color:#0088CC; }
+#about .spotlights>section .content p { color:var(--text-dark); margin-bottom:1.5rem; line-height:1.8; }
 #about .spotlights>section .content .button { background:var(--gradient-sea); color:var(--white); }
 
 #rules { background:linear-gradient(135deg, #F0F8FF 0%, #FFF8E1 100%); }
@@ -109,7 +109,7 @@ section.wrapper { padding:5rem 2rem; }
 .icon > .label { display:none; }
 #rules .features section .icon { font-size:2rem; color:var(--ocean); margin-bottom:1rem; display:inline-block; }
 #rules .features section h3 { font-size:1.1rem; color:var(--text-dark); margin-bottom:0.5rem; }
-#rules .features section p { font-size:0.95rem; color:var(--text-light); margin-bottom:0; }
+#rules .features section p { font-size:0.95rem; color:var(--text-dark); margin-bottom:0; }
 
 #documents { background:var(--white); }
 #documents .documents-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:1.5rem; max-width:700px; margin:0 auto; }
